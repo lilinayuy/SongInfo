@@ -1,0 +1,29 @@
+// SongInfoEditor.idl : type library source for SongInfoEditor.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (SongInfoEditor.tlb).
+
+[ uuid(234B23A5-8092-45EB-847D-14ACA7B2AF53), version(1.0) ]
+library SongInfoEditor
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CSongInfoEditorDoc
+	
+	[ uuid(325B416B-17F1-4E89-9743-F73242C8A2AA) ]
+	dispinterface ISongInfoEditor
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CSongInfoEditorDoc
+	
+	[ uuid(3B6D88D7-0D0E-4066-9579-DFF9972D3EDC) ]
+	coclass SongInfoEditor
+	{
+		[default] dispinterface ISongInfoEditor;
+	};
+};

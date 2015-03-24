@@ -1,0 +1,479 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日语(日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\SongInfoEditor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "1 TYPELIB ""SongInfoEditor.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SongInfoEditor.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BMP_PLAYUP          BITMAP                  "res\\PlayUp.bmp"
+IDB_BMP_PLAYDOWN        BITMAP                  "res\\PlayDown.bmp"
+IDB_BMP_PLAYNONE        BITMAP                  "res\\PlayNone.bmp"
+IDB_BMP_STOPDOWN        BITMAP                  "res\\StopDown.bmp"
+IDB_BMP_STOPUP          BITMAP                  "res\\StopUp.bmp"
+IDB_BMP_STOPNONE        BITMAP                  "res\\StopNone.bmp"
+IDB_BMP_PAUSEUP         BITMAP                  "res\\PauseUp.bmp"
+IDB_BMP_PAUSEDOWN       BITMAP                  "res\\PauseDown.bmp"
+IDB_BMP_PAUSENONE       BITMAP                  "res\\PauseNone.bmp"
+IDB_BMP_FFUP            BITMAP                  "res\\FFUp.bmp"
+IDB_BMP_FFDOWN          BITMAP                  "res\\FFDown.bmp"
+IDB_BMP_FFNONE          BITMAP                  "res\\FFNone.bmp"
+IDB_BMP_PREVUP          BITMAP                  "res\\PrevUp.bmp"
+IDB_BMP_PREVDOWN        BITMAP                  "res\\PrevDown.bmp"
+IDB_BMP_PREVNONE        BITMAP                  "res\\PrevNone.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_LYRIC DIALOGEX 0, 0, 316, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_LYRIC,7,7,302,171,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_DLG_UPLOAD DIALOGEX 0, 0, 254, 247
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "憲怣撪梕"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "憲怣",IDC_BTN_OK,138,226,50,14
+    PUSHBUTTON      "僉儍儞僙儖",IDCANCEL,197,226,50,14
+    EDITTEXT        IDC_EDIT_ARTIST,55,19,192,12,ES_AUTOHSCROLL
+    LTEXT           "Artist",IDC_STATIC,7,20,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_ALBUM,55,31,192,12,ES_AUTOHSCROLL
+    LTEXT           "Album",IDC_STATIC,7,32,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_SOURCE,55,43,192,12,ES_AUTOHSCROLL
+    LTEXT           "Source",IDC_STATIC,7,45,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_LYRIC,55,118,192,74,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    LTEXT           "Lyric",IDC_STATIC,7,119,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_TITLE,55,7,192,12,ES_AUTOHSCROLL
+    LTEXT           "Title",IDC_STATIC,7,8,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_COMPOSER,55,56,192,12,ES_AUTOHSCROLL
+    LTEXT           "Composer",IDC_STATIC,7,58,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_LYRICIST,55,68,192,12,ES_AUTOHSCROLL
+    LTEXT           "Lyricist",IDC_STATIC,7,70,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_CHORUS,55,92,192,12,ES_AUTOHSCROLL
+    LTEXT           "Chorus",IDC_STATIC,7,94,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_ARRANGER,55,80,192,12,ES_AUTOHSCROLL
+    LTEXT           "Arranger",IDC_STATIC,7,82,44,9,0,WS_EX_RIGHT
+    LTEXT           "Karaoke",IDC_STATIC,7,107,44,9,0,WS_EX_RIGHT
+    CONTROL         "",IDC_CHK_KARAOKE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,107,16,10
+    LTEXT           "Lyric",IDC_STATIC,72,107,44,9,0,WS_EX_RIGHT
+    CONTROL         "",IDC_CHK_LYRIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,120,107,16,10
+    EDITTEXT        IDC_EDIT_COMMENT,55,197,192,24,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    LTEXT           "Comment",IDC_STATIC,7,197,44,9,0,WS_EX_RIGHT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DLG_LYRIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_DLG_UPLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日语(日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About SongInfoEditor"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "SongInfoEditor, Version 0.6",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008 Amato Mitsuishi",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_SONGINFOEDITOR_DIALOG DIALOGEX 0, 0, 640, 380
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+CAPTION "SongInfoEditor"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "コピーエリア",IDC_STATIC,7,263,327,110
+    GROUPBOX        "曲リスト",IDC_STATIC,344,13,289,360
+    CONTROL         "",IDC_TAB_INFO,"SysTabControl32",0x0,15,52,311,195
+    PUSHBUTTON      "",IDC_BTN_PLAY,65,9,16,12
+    LISTBOX         IDC_LIST_SONG,352,24,273,330,LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "曲情報",IDC_STATIC,7,41,327,214
+    PUSHBUTTON      "追加",IDC_BTN_ADDSONG,553,356,33,14
+    PUSHBUTTON      "削除",IDC_BTN_DELSONG,592,356,33,14
+    PUSHBUTTON      "",IDC_BTN_PAUSE,81,9,16,12
+    PUSHBUTTON      "",IDC_BTN_STOP,49,9,16,12
+    PUSHBUTTON      "",IDC_BTN_PREV,33,9,16,12
+    PUSHBUTTON      "",IDC_BTN_FF,97,9,16,12
+    CONTROL         "",IDC_SLIDER_PLAY,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,131,14,183,15
+    CONTROL         "",IDC_SLIDER_VOLUME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,162,30,153,15
+    LTEXT           "音量",IDC_STATIC,136,34,17,8
+    LTEXT           "",IDC_STATIC_TIME,229,7,80,8,0,WS_EX_RIGHT
+    LTEXT           "Album",IDC_STATIC,17,282,26,9
+    EDITTEXT        IDC_EDIT_COPYALBUM,57,281,222,13,ES_AUTOHSCROLL
+    LTEXT           "Artist",IDC_STATIC,17,296,26,9
+    EDITTEXT        IDC_EDIT_COPYART,57,295,222,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "コピー",IDC_BTN_COPYARTISTIN,283,295,25,13
+    PUSHBUTTON      "コピー",IDC_BTN_COPYALBUMIN,283,281,25,13
+    EDITTEXT        IDC_EDIT_FREE1,57,308,222,26,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FREE2,57,335,222,26,ES_AUTOHSCROLL
+    LTEXT           "Free",IDC_STATIC,17,308,26,9
+    EDITTEXT        IDC_EDIT_FILENAME,344,2,289,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    PUSHBUTTON      "リネーム",IDC_BTN_RENAME,352,356,33,14
+    PUSHBUTTON      "設定",IDC_BTN_RENAME2,391,356,33,14
+    COMBOBOX        IDC_CMB_DEVICESELECT,15,25,117,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_ID3V1 DIALOGEX 0, 0, 308, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_ARTIST,55,19,192,12,ES_AUTOHSCROLL
+    LTEXT           "Artist",IDC_STATIC,7,20,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_ALBUM,55,31,192,12,ES_AUTOHSCROLL
+    LTEXT           "Album",IDC_STATIC,7,32,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_YEAR,55,43,45,12,ES_AUTOHSCROLL
+    LTEXT           "Year",IDC_STATIC,7,45,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_COMMENT,55,56,192,12,ES_AUTOHSCROLL
+    LTEXT           "Comment",IDC_STATIC,7,57,44,9,0,WS_EX_RIGHT
+    LTEXT           "Genre",IDC_STATIC,7,69,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_TITLE,55,7,192,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "日本語へ",IDC_BTN_TOJAPANESE,30,160,45,13
+    PUSHBUTTON      "中国語へ",IDC_BTN_TOCHINESE,82,160,45,13
+    LTEXT           "Title",IDC_STATIC,7,8,44,9,0,WS_EX_RIGHT
+    COMBOBOX        IDC_CMB_GENRE,55,68,100,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "保存",IDC_BTN_SAVEID3V1,134,160,45,13
+    PUSHBUTTON      "コピー",IDC_BTN_COPYARTISTOUT,251,18,25,13
+    PUSHBUTTON      "コピー",IDC_BTN_COPYALBUMOUT,251,31,25,13
+    EDITTEXT        IDC_EDIT_TRACK,272,5,29,12,ES_AUTOHSCROLL
+    LTEXT           "Track",IDC_STATIC,251,7,20,9
+    PUSHBUTTON      "増加",IDC_BTN_ADD,186,160,45,13
+    PUSHBUTTON      "削除",IDC_BTN_DELETE,238,160,45,13
+END
+
+IDD_DLG_ID3V2 DIALOGEX 0, 0, 308, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "日本語へ",IDC_BTN_TOJAPANESE,30,160,45,13
+    PUSHBUTTON      "中国語へ",IDC_BTN_TOCHINESE,82,160,45,13
+    EDITTEXT        IDC_EDIT_ARTIST,55,19,192,12,ES_AUTOHSCROLL
+    LTEXT           "Artist",IDC_STATIC,7,20,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_ALBUM,55,31,192,12,ES_AUTOHSCROLL
+    LTEXT           "Album",IDC_STATIC,7,32,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_YEAR,55,43,45,12,ES_AUTOHSCROLL
+    LTEXT           "Year",IDC_STATIC,7,45,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_COMMENT,55,118,192,24,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    LTEXT           "Comment",IDC_STATIC,7,119,44,9,0,WS_EX_RIGHT
+    LTEXT           "Genre",IDC_STATIC,108,45,29,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_TITLE,55,7,192,12,ES_AUTOHSCROLL
+    LTEXT           "Title",IDC_STATIC,7,8,44,9,0,WS_EX_RIGHT
+    COMBOBOX        IDC_CMB_GENRE,139,43,108,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "コピー",IDC_BTN_COPYARTISTOUT,251,18,25,13
+    PUSHBUTTON      "コピー",IDC_BTN_COPYALBUMOUT,251,31,25,13
+    EDITTEXT        IDC_EDIT_COMPOSER,55,56,192,12,ES_AUTOHSCROLL
+    LTEXT           "Composer",IDC_STATIC,7,58,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_LYRIC,55,68,192,12,ES_AUTOHSCROLL
+    LTEXT           "Lyric",IDC_STATIC,7,70,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_URL,55,142,192,12,ES_AUTOHSCROLL
+    LTEXT           "URL",IDC_STATIC,7,144,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_COPYRIGHT,55,92,174,12,ES_AUTOHSCROLL
+    LTEXT           "Copyright",IDC_STATIC,7,94,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_ORIARTIST,55,80,192,12,ES_AUTOHSCROLL
+    LTEXT           "Original Artist",IDC_STATIC,7,82,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_ENCODER,55,105,51,12,ES_AUTOHSCROLL
+    LTEXT           "Encoder",IDC_STATIC,7,107,44,9,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_ENCODEBY,158,105,89,12,ES_AUTOHSCROLL
+    LTEXT           "Encode By",IDC_STATIC,110,107,44,9,0,WS_EX_RIGHT
+    LTEXT           "Track",IDC_STATIC,251,7,20,9
+    LTEXT           "ID3 Version",IDC_STATIC,251,57,40,9
+    COMBOBOX        IDC_CMB_ID3VER,251,67,50,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Text Encode",IDC_STATIC,251,82,40,9
+    COMBOBOX        IDC_CMB_TEXTENCODE,231,92,70,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Go!",IDC_BTN_GOTOURL,251,142,25,13
+    PUSHBUTTON      "保存",IDC_BTN_SAVE,134,160,30,13
+    PUSHBUTTON      "Show Lyric",IDC_BTN_SHOWLYRIC,251,118,42,13
+    EDITTEXT        IDC_EDIT_TRACK2,272,5,29,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "増加",IDC_BTN_ADD,173,160,30,13
+    PUSHBUTTON      "削除",IDC_BTN_DELETE,212,160,30,13
+    PUSHBUTTON      "送信",IDC_BTN_UPLOAD,251,160,30,13
+END
+
+IDD_VARIETYDIALOG DIALOG 0, 0, 320, 200
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,209,179,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,263,179,50,14
+END
+
+IDD_DIALOGPICTURE DIALOGEX 0, 0, 320, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_PLAY,39,165,25,14
+    PUSHBUTTON      "",IDC_BTN_PAUSE,152,167,25,14
+    PUSHBUTTON      "",IDC_BTN_STOP,73,141,25,14
+    PUSHBUTTON      "",IDC_BTN_FF,238,162,25,14
+    PUSHBUTTON      "",IDC_BTN_PREV,194,155,25,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_SONGINFOEDITOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 633
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 373
+    END
+
+    IDD_DLG_ID3V1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 301
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_DLG_ID3V2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 301
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_VARIETYDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_DIALOGPICTURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG_PLAY            PNG                     "res\\play01.png"
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "SongInfoEditor.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "SongInfoEditor.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDS_ABOUTBOX            "&About SongInfoEditor..."
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\SongInfoEditor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+1 TYPELIB "SongInfoEditor.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
